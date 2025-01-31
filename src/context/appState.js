@@ -6,7 +6,7 @@ import io from "socket.io-client";
 //https://chat-app-u2cq.onrender.com
 // http://localhost:5000
 // const hostName = "https://chat-app-u2cq.onrender.com";
-const hostName = "http://localhost:5123";
+const hostName = "https://conversa-dfd654c41b64.herokuapp.com/";
 var socket = io(hostName);
 
 const ChatState = (props) => {
